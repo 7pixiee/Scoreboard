@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-color:rgb(73, 67, 110);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+     width: 575px;
+     height: 385px;
+     display: flex;
+     justify-content: center;
+     gap: 200px;
+}
+
+.team-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    gap: 40px;
+}
+
+#board-title {
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana;
+    text-align: center;
+}
+
+
+.home-score, .guest-score {
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -25px 0 30px 0;
+    border-radius: 5px;
+}
+#home-points-text, #guest-points-text {
+     width: 117px;
+     height: 100%;
+      color: #F94F6D;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 6rem; 
+     font-family: 'Cursed Timer ULiL', sans-serif;                                            
+}
+
+.add-points-btns {
+   display: flex;
+   justify-content: space-between;
+   font-family: 'Cursed Timer ULiL', sans-serif;
+   color: rgb(191, 188, 207);
+}
+
+.add-points-btns span {
+    border: 2px solid rgb(191, 188, 207);
+    padding: 11px;
+    border-radius: 5px;
+}
+.add-points-btns span:hover {
+    background-color:rgb(191, 188, 207);
+    color: rgb(73, 67, 110);
+    cursor: pointer;
+}
